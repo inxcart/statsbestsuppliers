@@ -24,7 +24,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 
-if (!defined('_PS_VERSION_'))
+if (!defined('_TB_VERSION_'))
 	exit;
 
 class StatsBestSuppliers extends ModuleGrid
@@ -41,8 +41,8 @@ class StatsBestSuppliers extends ModuleGrid
 	{
 		$this->name = 'statsbestsuppliers';
 		$this->tab = 'analytics_stats';
-		$this->version = '1.4.0';
-		$this->author = 'PrestaShop';
+		$this->version = '2.0.0';
+		$this->author = 'thirty bees';
 		$this->need_instance = 0;
 
 		parent::__construct();
